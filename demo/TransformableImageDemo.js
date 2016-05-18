@@ -23,8 +23,8 @@ export default class Demo extends Component {
         style={{flex: 1, alignItems: 'center'}}>
         <ViewTransformer.Image
           style={{width: width, height: height - 100}}
-          source={{uri: 'http://ww2.sinaimg.cn/large/005yl0q6jw1esai5n7vxjj31kw2dc4qp.jpg'}}
-          pixels={{width: 2048, height: 3072}}
+          source={{uri: 'https://raw.githubusercontent.com/yoaicom/react-native-demo/res/res/dany%20game%20of%20thrones.jpg'}}
+          pixels={{width: 1920, height: 1080}}
         />
 
         <Text style={{fontSize: 16, margin: 10}}>

@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 
 import ImageDemo from './demo/TransformableImageDemo';
+import ViewDemo from './demo/TransformableViewDemo';
 
 export default class Demo extends Component {
 
@@ -13,6 +14,7 @@ export default class Demo extends Component {
   render() {
     return (
       <ImageDemo />
+      //<ViewDemo />
     );
   }
 }
